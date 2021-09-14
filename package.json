@@ -1,14 +1,14 @@
 {
-  "name": "node-hello",
+  "name": "node-web-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple node.js app that servers \"hello world\"",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnpapa/node-hello.git"
+    "url": "git+https://github.com/rmit-s3659816-Sunny/S3659816-SEPT-Take-Home-Assignment-2"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/johnpapa/node-hello/issues"
   },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+  "homepage": "https://github.com/rmit-s3659816-Sunny/S3659816-SEPT-Take-Home-Assignment-2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
